@@ -39,19 +39,12 @@
       <name="=Loja_MP3/src<br.edu.ifpb{Cadastramento.java[Cadastramento"/>
       <height="-1"/>
       <width="-1"/>
-      <x="344"/>
-      <y="327"/>
+      <x="319"/>
+      <y="370"/>
    </type>
    <relationship>
       <class="edu.buffalo.cse.green.relationship.generalization.GeneralizationPart"/>
       <sourceType="=Loja_MP3/src<br.edu.ifpb{Cliente.java[Cliente"/>
-      <targetType="=Loja_MP3/src<br.edu.ifpb{Pessoa.java[Pessoa"/>
-      <bendpoints>
-      </bendpoints>
-   </relationship>
-   <relationship>
-      <class="edu.buffalo.cse.green.relationship.generalization.GeneralizationPart"/>
-      <sourceType="=Loja_MP3/src<br.edu.ifpb{Funcionario.java[Funcionario"/>
       <targetType="=Loja_MP3/src<br.edu.ifpb{Pessoa.java[Pessoa"/>
       <bendpoints>
       </bendpoints>
@@ -63,5 +56,19 @@
       <bendpoints>
       </bendpoints>
    </relationship>
+   <relationship>
+      <class="edu.buffalo.cse.green.relationship.generalization.GeneralizationPart"/>
+      <sourceType="=Loja_MP3/src<br.edu.ifpb{Funcionario.java[Funcionario"/>
+      <targetType="=Loja_MP3/src<br.edu.ifpb{Pessoa.java[Pessoa"/>
+      <bendpoints>
+      </bendpoints>
+   </relationship>
+   <type>
+      <name="=Loja_MP3/src<br.edu.ifpb{ServletLogin.java[ServletLogin"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="573"/>
+      <y="311"/>
+   </type>
 </uml>
 

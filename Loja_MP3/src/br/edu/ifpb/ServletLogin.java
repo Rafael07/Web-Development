@@ -41,7 +41,7 @@ public class ServletLogin extends HttpServlet {
 		String senha = request.getParameter("edtSenha");
 		
 		if (this.validarSenha (login,senha)) {
-			response.sendRedirect("...");
+			response.sendRedirect("Arquivos.html");
 		} else response.sendRedirect("erro.html");
 			
 	}//doPost
