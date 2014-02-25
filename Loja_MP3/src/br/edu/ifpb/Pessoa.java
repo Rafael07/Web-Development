@@ -4,8 +4,13 @@
 package br.edu.ifpb;
 
 /**
- * @author Rafael
- *
+ * @author Rafael Rodrigues 
+ * @author Lenildo Sousa
+ * @version 1.0
+ */
+
+/**
+ * Classe responsável pela criação de pessoas, de modo genérico.
  */
 public abstract class Pessoa {
 
@@ -19,7 +24,13 @@ public abstract class Pessoa {
 	private String email;
 	
 	
-	
+	/**
+	 * Os parâmetros correspodem as informações da pessoa, que serão geradas a partir deste construtor.
+	 * @param nome
+	 * @param idade
+	 * @param cpf
+	 * @param email
+	 */
 
 	public Pessoa(String nome, int idade, float cpf, String email) {
 		super();
@@ -29,6 +40,11 @@ public abstract class Pessoa {
 		this.email = email;
 	}
 
+	/**
+	 * Métodos Get e Set da classe, para acesso aos dados de maneira segura
+	 * 
+	 */
+	
 	public String getNome() {
 		return nome;
 	}
@@ -61,6 +77,10 @@ public abstract class Pessoa {
 		this.email = email;
 	}
 
+	/**
+	 * Método toString que permite a impressão dos atributos da classe.
+	 */
+	
 	@Override
 	public String toString() {
 		return "Pessoa nome: " + nome + "\nidade: " + idade + "\ncpf: " + cpf

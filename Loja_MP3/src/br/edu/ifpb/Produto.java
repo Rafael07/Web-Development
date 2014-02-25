@@ -4,18 +4,30 @@
 package br.edu.ifpb;
 
 /**
- * @author Rafael
+ * @author Rafael Rodrigues
+ * @author Lenildo Sousa
  *
+ * Classe genérica que serve de base para criação de um produto qualquer.
  */
 
 public abstract class Produto {
 
+	/**
+	 * Atributos da classe.
+	 */
 	
 	private String descrição;
 	
 	private int tag;
 	
 	private String nome;
+	
+	/**
+	 * Construtor da classe e seus parâmetros
+	 * @param nome
+	 * @param descrição
+	 * @param tag
+	 */
 	
 	public Produto(String nome, String descrição, int tag){
 		this.nome = nome;
@@ -24,6 +36,11 @@ public abstract class Produto {
 		
 	}
 
+	/**
+	 * Métodos Get e Set da classe
+	 * 
+	 */
+	
 	public String getDescrição() {
 		return descrição;
 	}
@@ -48,5 +65,12 @@ public abstract class Produto {
 		this.nome = nome;
 	}
 
+	@Override
+	public String toString() {
+		return "Produto [getDescrição()=" + getDescrição() + ", getTag()="
+				+ getTag() + ", getNome()=" + getNome() + "]";
+	}
+
+	
 	
 }
